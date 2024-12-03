@@ -1,0 +1,105 @@
+body{
+    color: aqua;
+  }
+  
+  .container1{
+      height:610px;
+      width:60%;
+      background-color:chartreuse;
+      padding-top:110px;
+      margin: 150px;
+      border:3px solid;
+      border-radius: 15px;
+      transition: border-color 0.3s, box-shadow :cubic-bezier(0.23, 1, 0.320, 1); 
+      }
+      .lop {
+          text-align: center;
+          justify-content: center;
+          margin-top: -100px;
+          border: 1px solid transparent;
+          border-radius: 15px;
+          padding: 10px;
+          transition: border-color 0.3s, box-shadow 0.3s; /* Smooth transition for border and shadow */
+        }
+        
+        .lop:focus, .lop:hover {
+          border-color:palevioletred; /* Change border color on focus/hover */
+          box-shadow: 0 0 5px rgba(47, 255, 0, 0.5); /* Optional: add a shadow effect */
+          outline: none; /* Remove default outline */
+        }
+        .gill{
+          align-items: left;
+          text-align: left;
+          justify-content: center;
+          margin-left: 150px;
+          padding:20px;
+          font-size: x-large;
+          font-weight: 600;
+        }legend {
+          margin-bottom: 70px;
+          margin-right: -60px;
+         
+        }
+  
+  
+        .do{
+          margin-left: 40px;
+          margin-top: 20px;
+          font-size: large; 
+        }
+        .do{
+          margin-left: 110px;
+          margin-top: 30px;font-size: large; 
+  
+  
+        }
+        .do1{
+          margin-left: 30px;
+          font-size: large; 
+        }
+        button {
+         
+              border-radius: 50%; /* Make the border radius a circle */
+          box-shadow: 6px 15px 12px brown; /* Adjusted shadow */
+        }
+      
+      button.uu {
+          background-color:darkgreen;
+          color: rgb(0, 0, 0);
+          margin-left: 190px;
+          border-radius: 8px;
+          font-size: xx-large; /* Increased font size */
+          font-weight: 400;
+          margin-top: 100px;
+      
+      }.ul{
+        background-color:orangered;
+          color: rgb(0, 0, 0);
+          margin-left: 220px;
+         
+          border-radius: 8px;
+          font-size: xx-large; /* Increased font size */
+          font-weight: 400;
+          
+      }
+      button{
+        height: 80px;
+        weight:30px;
+      }
+      .result {
+        display:block ;
+        color: blue;
+       
+        margin-bottom:-30px;
+        margin-left: 300px;
+        font-size: x-large;
+        font-weight: bold;
+      }img{
+        weight:35px;
+        height:80px;
+        margin-left: 2px;
+        margin-top:-13px;
+        mix-blend-mode: multiply; /* Applies the multiply blending effect to the .blend class inside .icon-background-non */
+      }
+        
+      
